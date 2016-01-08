@@ -1,28 +1,34 @@
+body
+{
+	background:#82CAFF;
+}
+
 #banner
 {
 	font-family: arial, sans-serif;
-	color:#493D26
+	color:#493D26;
+	text-align: center;
 }
 
 #sub_banner
 {
 	font-family: arial, sans-serif;
-	color:#493D26
-
+	color:#493D26;
+	text-align: center;
 }
-
 
 #nav_menu 
 {
 	font-family: arial, sans-serif;
+	font-weight:bold;
 	position: absolute;
-	top:80;
-	left:0;
-	width: 650px;
-	height:56px;
+	width: 2000px;
+	height:60px;
 	font-size:14px;
-	color:#999;
+	color:#6D7B8D;
 	margin: 0 auto;
+	border-top:3px solid #6D7B8D;
+	border-bottom:3px solid #6D7B8D;
 }
 
 #nav_menu ul 
@@ -39,12 +45,12 @@
 #nav_menu ul li a 
 {
 	text-align: center;
-	border-right:1px solid #e9e9e9;
-	border-left:1px solid #e9e9e9;
-	padding:20px;
+	border-right:1px solid #6D7B8D;
+	border-left:1px solid #6D7B8D;
+	padding:10px;
 	display:block;
 	text-decoration:none;
-	color:#999;
+	color:#6D7B8D;
 }
 
 #nav_menu ul li:hover a 
