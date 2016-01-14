@@ -87,3 +87,47 @@ body
 	background:#48CCCD;
 	color:#493D26;
 }
+
+#classes_table
+{
+	position: center;
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 300px;
+	margin: auto;
+}
+
+img.home_pic
+{
+	margin-top: 2cm;
+	margin:left;
+}
+
+#class_table_header
+{
+	height: 50px;
+}
+
+tr, td
+{
+	font-family: arial, sans-serif;
+	border: 1px solid black;
+	text-align: center;
+}
+
+img.about_pic
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about_text
+{
+	margin-left:2cm;
+}
+
+#accomplishment_bullets
+{
+	margin-left:3cm;
+}
