@@ -293,7 +293,7 @@ int main(int argc, char *argv[])
             {
                 if(debugMode)
                 {
-                    printf("[%d] %s\n",i,headerLines[i]);
+                    printf("%s\n",headerLines[i]);
                 }
                 if(strstr(headerLines[i], "Content-Type"))
                 {
