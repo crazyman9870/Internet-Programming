@@ -1,0 +1,22 @@
+Call to the client
+
+./client webpage port path
+ex
+./client ec2-52-35-47-228.us-west-2.compute.amazonaws.com 3000 /content
+
+Call to example epoll
+
+./exampleEpoll webpage port
+ex
+./exampleEpoll ec2-52-35-47-228.us-west-2.compute.amazonaws.com 3000
+
+Call to server
+./sever port directory
+ex
+./server 3000 ./
+
+Call to webtest
+./webtest webpage port -d count
+ex
+./webtest ec2-52-35-47-228.us-west-2.compute.amazonaws.com 3000 -d 100
+./webtest ec2-52-35-47-228.us-west-2.compute.amazonaws.com 3000 100 -d
